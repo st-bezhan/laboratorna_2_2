@@ -79,7 +79,7 @@ int main(void) {
                 break;
             default:
                 printf("Variant selection error! Restart the program");
-                return 0;
+                return 1;
         }
         printf("\nIntegral S without measurement error with %d intervals = %lf", intervals_n, integral_S);
     }
