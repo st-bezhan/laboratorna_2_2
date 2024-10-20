@@ -87,7 +87,7 @@ int main(void) {
 }
 
 double function_for_integration(double x) {
-    return 1.0 / (4 - x * x);
+    return 1.0 / (4 + x * x);
 }
 
 unsigned int validate_input(const char* formatSpecifier, void* value, char message[]) {
